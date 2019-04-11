@@ -81,12 +81,12 @@ void build_pq(vector<int> &pq){
 int main() 
 {   
 
-	vector<int> pq{ 60, 20, 30, 33, 12, 19, 70 };
-	build_pq(pq);
-	cout << pq[0]<< pq[1]<< pq[2]<< pq[3]<< pq[4]<<pq[5]<<pq[6]<< endl;
-	
-	//test
-	insert_pq(pq, 55);
+    vector<int> pq{ 60, 20, 30, 33, 12, 19, 70 };
+    build_pq(pq);
+    cout << pq[0]<< pq[1]<< pq[2]<< pq[3]<< pq[4]<<pq[5]<<pq[6]<< endl;
+
+    //test
+    insert_pq(pq, 55);
     insert_pq(pq, 11);
     insert_pq(pq, 88);
     insert_pq(pq, 60);
